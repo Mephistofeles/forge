@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using Xunit;
 
 namespace Forge.Utilities.Tests {
