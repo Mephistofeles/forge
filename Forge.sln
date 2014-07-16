@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Extensions", "Forge.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Collections", "Forge.Collections\Forge.Collections.csproj", "{9D91D020-4291-4926-B76D-B73D138B0AEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.AllLibraries", "Forge.AllLibraries\Forge.AllLibraries.csproj", "{565BB8E0-6223-4BD2-8E2B-39E18939A69F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.UtilitiesTests", "Forge.UtilitiesTests\Forge.UtilitiesTests.csproj", "{CA62937B-CF47-40E6-89A3-612AC6DDC9D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4369454A-E69D-4CB3-99B6-F9CBAE16404F}"
@@ -58,10 +56,6 @@ Global
 		{9D91D020-4291-4926-B76D-B73D138B0AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D91D020-4291-4926-B76D-B73D138B0AEF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{9D91D020-4291-4926-B76D-B73D138B0AEF}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{565BB8E0-6223-4BD2-8E2B-39E18939A69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{565BB8E0-6223-4BD2-8E2B-39E18939A69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{565BB8E0-6223-4BD2-8E2B-39E18939A69F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{565BB8E0-6223-4BD2-8E2B-39E18939A69F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA62937B-CF47-40E6-89A3-612AC6DDC9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA62937B-CF47-40E6-89A3-612AC6DDC9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA62937B-CF47-40E6-89A3-612AC6DDC9D0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
