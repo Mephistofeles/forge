@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30626.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.25302.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Utilities", "Forge.Utilities\Forge.Utilities.csproj", "{25DB9F16-ECAE-4A3F-B3C3-5794B8288587}"
 EndProject
@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Collections", "Forge.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.UtilitiesTests", "Forge.UtilitiesTests\Forge.UtilitiesTests.csproj", "{CA62937B-CF47-40E6-89A3-612AC6DDC9D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4369454A-E69D-4CB3-99B6-F9CBAE16404F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.CollectionsTests", "Forge.CollectionsTests\Forge.CollectionsTests.csproj", "{1973EECC-8908-47BC-9EA4-DC99530C888A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.Networking", "Forge.Networking\Forge.Networking.csproj", "{1E1D1B4B-1E31-45D0-A53C-597EFF87725A}"
@@ -22,17 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.NetworkingDebug", "Forge.NetworkingDebug\Forge.NetworkingDebug.csproj", "{F63D780F-DAC5-412B-8CC2-AAF9B2728BF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forge.EntitiesTests", "Forge.EntitiesTests\Forge.EntitiesTests.csproj", "{9694BC6E-8124-469F-9F64-77EDCBC888F9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CB195312-0EDC-480B-8864-1EE44DF77E17}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{D18F4AE8-7CCE-4B6E-AFF6-47311D165AE0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lidgren.Network", "External\Lidgren\Lidgren.Network\Lidgren.Network.csproj", "{49BA1C69-6104-41AC-A5D8-B54FA9F696E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,15 +63,8 @@ Global
 		{9694BC6E-8124-469F-9F64-77EDCBC888F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9694BC6E-8124-469F-9F64-77EDCBC888F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{9694BC6E-8124-469F-9F64-77EDCBC888F9}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{49BA1C69-6104-41AC-A5D8-B54FA9F696E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49BA1C69-6104-41AC-A5D8-B54FA9F696E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49BA1C69-6104-41AC-A5D8-B54FA9F696E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49BA1C69-6104-41AC-A5D8-B54FA9F696E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{49BA1C69-6104-41AC-A5D8-B54FA9F696E8} = {D18F4AE8-7CCE-4B6E-AFF6-47311D165AE0}
 	EndGlobalSection
 EndGlobal
